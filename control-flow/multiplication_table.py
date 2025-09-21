@@ -1,7 +1,7 @@
 number = int(input("Enter a number to see its multiplication table:"))
 x = 1
 count = 0
-for count in range(0,11) :
+for count in range(0,10) :
  answer = number * x
  print(number,"*" , x,"=" ,answer)
 x = x + 1
