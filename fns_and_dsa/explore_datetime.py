@@ -1,10 +1,9 @@
 import datetime
 
+
 def display_current_datetime ():
  current_date = datetime.datetime.now()
-print("Current date and time:",current_date)
-
-
+print("Current date and time:",current_date) # pyright: ignore[reportUndefinedVariable]
 
 number_of_days = int(input("Enter the number of days :"))
 datetime.timedelta(days=number_of_days) 
