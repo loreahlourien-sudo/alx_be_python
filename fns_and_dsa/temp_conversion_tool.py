@@ -1,5 +1,5 @@
-FAHRENHEIT_TO_CELSIUS_FACTOR = globals
-CELSIUS_TO_FAHRENHEIT_FACTOR = globals
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 degree = int(input("Enter temperature :"))
 temp = input("is the temperature(celsius, fahrenheit) :")
